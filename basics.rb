@@ -1,3 +1,0 @@
-get '/'
-  "hello world"
-end
