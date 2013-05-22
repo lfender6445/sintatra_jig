@@ -52,6 +52,7 @@ GEM
     temple (0.6.5)
     thor (0.18.1)
     tilt (1.4.1)
+    will_paginate (3.0.4)
 
 PLATFORMS
   ruby
@@ -62,3 +63,4 @@ DEPENDENCIES
   shotgun
   sinatra
   slim
+  will_paginate (~> 3.0.4)
