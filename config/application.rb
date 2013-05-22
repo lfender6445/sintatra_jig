@@ -1,10 +1,9 @@
 require 'sinatra/base'
 require 'slim'
 
-Slim::Engine.set_default_options({
-	:pretty => true,
-	:disable_escape => true
-})
 
-env = (ENV['RACK_ENV'] || 'development').to_sym
+def env
+	(ENV['RACK_ENV'] || 'development').to_sym
+end
+
 require_relative "environments/#{env}"
